@@ -1,0 +1,30 @@
+{
+  "name": "guangyu-skill",
+  "private": true,
+  "version": "1.0.0",
+  "description": "光域：连续过渡短片技能。天空/镜头/主角全片连续 + 地貌接力；含 2D/3D 人物组件、音频适配、音乐卡点与验收脚本",
+  "scripts": {
+    "start": "remotion studio",
+    "render": "remotion render Demo out/demo.mp4",
+    "render:3d": "remotion render ThreeDemo out/three-demo.mp4",
+    "render:journey": "remotion render Journey out/journey-35s.mp4",
+    "typecheck": "tsc --noEmit",
+    "setup": "python scripts/install.py",
+    "qc": "python scripts/qc.py out/demo.mp4",
+    "pack": "python scripts/pack.py"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/cli": "^4.0.0",
+    "@remotion/three": "^4.0.544",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.0",
+    "three": "^0.183.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/three": "^0.183.1",
+    "typescript": "^5.6.0"
+  }
+}

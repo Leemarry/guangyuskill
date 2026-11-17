@@ -1,0 +1,84 @@
+光域（guangyu）技能包 v1.0.0
+文件 66 个，解压后约 0.5 MB
+
+安装：
+  1) 解压到任意目录
+  2) python scripts/install.py      # 检测 → 装依赖 → 自检
+  3) npm start                      # 打开 Studio
+
+目录：
+  SKILL.md            入口：什么时候用、怎么做、验收清单
+  references/         七篇原理与判据（连续过渡 / 音频适配 / 人物 / 参数 / 踩坑 / 卡点 / 3D）
+  code/               Hero01 2D 人物、Relay01 接力、SkyLayer01 天空、Mist01 雾…
+  code/three/         Hero02 3D 旅人、World01 着色器世界、action01、shaders01
+  scripts/            check_env / install_tool / fit_audio / beatmap / beatcheck / qc / install / pack
+  src/                最小示例（2D 两段接力 / 3D 七段）
+  example/journey/    参考成片完整源码：35 秒五段地貌
+
+文件清单：
+      5,636  code/config01.example.ts
+     20,718  code/Figure01.tsx
+      2,807  code/Hero01.tsx
+      3,586  code/Mist01.tsx
+      3,987  code/Particles01.tsx
+     10,204  code/pose01.ts
+      5,132  code/Relay01.tsx
+      4,661  code/sky01.ts
+      7,962  code/SkyLayer01.tsx
+      3,426  code/SkyParts01.tsx
+      3,820  code/Stars01.tsx
+      2,190  code/three/action01.ts
+     11,226  code/three/Hero02.tsx
+      4,309  code/three/shaders01.ts
+     15,569  code/three/World01.tsx
+      5,467  code/util.ts
+      4,105  example/journey/components/Caption.tsx
+      3,252  example/journey/components/CloudField.tsx
+     20,718  example/journey/components/Figure.tsx
+      1,857  example/journey/components/Hero.tsx
+      5,775  example/journey/components/Masks.tsx
+      3,428  example/journey/components/Mist.tsx
+      3,990  example/journey/components/Particles.tsx
+      7,115  example/journey/components/Ridges.tsx
+      3,431  example/journey/components/Sky.tsx
+      7,413  example/journey/components/World.tsx
+      5,372  example/journey/config.ts
+      6,555  example/journey/Journey.tsx
+      8,528  example/journey/lib/clock.ts
+      4,322  example/journey/lib/sky.ts
+      4,910  example/journey/lib/util.ts
+      2,131  example/journey/previews.tsx
+      2,399  example/journey/README.md
+      4,658  example/journey/scenes/CloudSea.tsx
+      6,140  example/journey/scenes/Dunes.tsx
+      6,940  example/journey/scenes/Seaside.tsx
+      7,028  example/journey/scenes/Snowfield.tsx
+      7,502  example/journey/scenes/StarSea.tsx
+    151,540  package-lock.json
+        988  package.json
+      3,607  README.md
+      5,872  references/01-连续过渡.md
+      5,914  references/02-音频适配.md
+      6,877  references/03-人物组件.md
+      5,287  references/04-参数表.md
+      9,502  references/05-踩坑清单.md
+      6,187  references/06-音乐卡点.md
+      7,389  references/07-3D与着色器.md
+      1,599  remotion.config.ts
+      7,503  scripts/beatcheck.py
+      9,402  scripts/beatmap.py
+      7,257  scripts/check_env.py
+     12,463  scripts/fit_audio.py
+      8,322  scripts/install.py
+     12,697  scripts/install_tool.py
+      7,462  scripts/pack.py
+     12,397  scripts/qc.py
+     16,217  SKILL.md
+     15,513  src/Cover.tsx
+      5,139  src/Demo.tsx
+         89  src/index.ts
+      2,120  src/Root.tsx
+      3,317  src/scenes/Frost.tsx
+      2,598  src/scenes/Meadow.tsx
+      1,473  src/ThreeDemo.tsx
+        428  tsconfig.json
